@@ -1,0 +1,61 @@
+#bannerimage0 {
+  background-image: url("https://www.bungie.net/pubassets/pkgs/131/131878/Update_Patch_Header.jpg");
+
+  background-size: 100%;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  /* background-image: url("https://farm1.staticflickr.com/491/17888036233_dd3e8cabac_o.png"); */
+}
+.roster-name-size {
+  box-shadow: 5px 5px 15px black;
+  padding: 35px;
+  font-size: 24px;
+}
+
+.roster-submission-header {
+  margin-bottom: 30px;
+}
+
+.roster-form {
+  opacity: 0.8;
+}
+
+#videoplay {
+  position: absolute;
+}
+
+#RosterHeader {
+  /* text-shadow: -1px 0px 3px #fee7ea; */
+  /* font-weight: bold; */
+  font-size: 42px;
+  opacity: 0.6;
+  color: white;
+}
+.rosterSubmitButton {
+  opacity: 0.6;
+  color: white;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  float: right;
+  text-shadow: 50px 0px 50px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rosterSubmitButton:hover {
+  cursor: pointer;
+}
+
+.remove-from-roster {
+  position: absolute;
+  z-index: 100;
+  margin-top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: white;
+  opacity: 0.6;
+  text-shadow: 0px 3px 2px black;
+}
